@@ -1,0 +1,16 @@
+{
+  "name": "mdns-discovery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dns-sd-demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-dns-sd": "^0.4.2",
+    "resin-discoverable-services": "git+https://github.com/balena-io-modules/resin-discoverable-services.git"
+  }
+}

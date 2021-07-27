@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mdns-js": "^1.0.3",
+    "mdns-server": "git+https://github.com/phil-d-wilson/mdns-server.git",
+    "multicast-dns": "git+https://github.com/phil-d-wilson/mdns-server.git",
     "node-dns-sd": "^0.4.2",
-    "resin-discoverable-services": "git+https://github.com/balena-io-modules/resin-discoverable-services.git"
+    "resin-discoverable-services": "git+https://github.com/resin-io-modules/resin-discoverable-services.git#find-on-all-interfaces"
   }
 }

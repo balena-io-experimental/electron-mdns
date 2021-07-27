@@ -6,5 +6,5 @@ rds.enumerateServices()
     })
 
 
-rds.findServices(['_resin-device._sub._ssh._tcp'], 4000)
+rds.findServices(['_resin-device._sub._ssh._tcp'])
     .then(service => console.log(service))
